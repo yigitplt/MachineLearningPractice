@@ -6,7 +6,6 @@ import copy, math
 def load_data():
     """
     Loads and preprocesses the Breast Cancer dataset.
-    - Filters the dataset to keep only two classes (malignant or benign).
     - Splits the dataset into training and test sets (80% train, 20% test).
     - Normalizes the data by subtracting the mean and dividing by the standard deviation.
     
